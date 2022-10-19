@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     async signUp() {
-      let result = await axios.post("http://127.0.0.1:5000/correo", {
+      let result = await axios.post("https://54.205.29.249:5000/correo", {
         correo: this.correo,
         nombre: this.nombre,
         texto: this.texto,
