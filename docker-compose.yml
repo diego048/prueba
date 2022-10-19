@@ -1,6 +1,6 @@
 services:
   1python:
-    build: diego048/python1
+    image: diego048/python1
     ports:
       - "5000:5000"
   vue1:
