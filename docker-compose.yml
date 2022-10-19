@@ -6,4 +6,4 @@ services:
   vue1:
     image: diego048/vue
     ports:
-      - "80:80" 
+      - "8080:8080" 
